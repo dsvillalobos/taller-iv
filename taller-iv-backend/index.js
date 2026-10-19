@@ -18,14 +18,15 @@ app.get("/api/info", (req, res) => {
         nombre: "Sebastian Villalobos",
         edad: 20,
         carrera: "Ingeniería informática",
-        materiasAprobadas: 22
-      }, {
+        materiasAprobadas: 22,
+      },
+      {
         nombre: "Diego Olivares",
         edad: 20,
         carrera: "Ingeniería informática",
-        materiasAprobadas: 21
-      }
-    ]
+        materiasAprobadas: 21,
+      },
+    ],
   });
 });
 
